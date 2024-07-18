@@ -2,7 +2,7 @@ import os
 import numpy as np
 import torch
 from torch.autograd import Variable
-from torchvision import transforms
+import torchvision.transforms as transforms
 from torchvision.io import write_video
 import tempfile
 import subprocess
